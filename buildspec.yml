@@ -14,7 +14,7 @@ phases:
 
     build:
       commands:
-        - "npm run"
+        - "npm run build"
         - "terraform apply --auto-approve"
 
     post_build:

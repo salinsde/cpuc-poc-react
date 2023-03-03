@@ -1,6 +1,6 @@
 import { createBrowserRouter } from 'react-router-dom';
-import dashboardRoutes from './dashboardRoutes';
-import publicRoutes from './publicRoutes';
+import dashboardRoutes from './dashboard/dashboardRoutes';
+import publicRoutes from './public/publicRoutes';
 
 const router = createBrowserRouter([publicRoutes, dashboardRoutes]);
 

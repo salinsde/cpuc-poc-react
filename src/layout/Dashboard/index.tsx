@@ -12,6 +12,7 @@ const Main = styled('main')`
     position: absolute;
     padding: 20px;
     width: calc(100% - 57px);
+    background: #fff;
 `;
 
 const Dashboard = () => {
